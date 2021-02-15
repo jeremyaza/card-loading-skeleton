@@ -8,7 +8,7 @@ A simple example about the funcionality and implementatio about [react-loading-s
 
 ## Live Application URL ✨
 
-The Application is deployed in https://profile-card-jeremy.netlify.app/
+The Application is deployed in https://card-loading-skeleton.netlify.app/
 
 Click on the link to see the web
 
