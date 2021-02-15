@@ -2,8 +2,6 @@
 
 A simple example about the funcionality and implementatio about [react-loading-skeleton](https://github.com/dvtng/react-loading-skeleton)
 
-## Challenge
-
 ![](src/doc/capture.png)
 
 ## Live Application URL ✨
