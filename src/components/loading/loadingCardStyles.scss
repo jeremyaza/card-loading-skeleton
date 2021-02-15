@@ -1,0 +1,15 @@
+.header__card_loading {
+  position: relative;
+  align-self: center;
+  padding-left: 2rem;
+}
+.footer__card_loading {
+  position: relative;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem 0 2rem;
+  div {
+    display: flex;
+  }
+}

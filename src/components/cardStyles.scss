@@ -1,0 +1,71 @@
+$bg-color: #161616;
+.content_main {
+  background-color: $bg-color;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // Card
+  .content__card {
+    width: 640px;
+    height: 640px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 560px 80px;
+    grid-template-columns: auto;
+    background: url("https://i.ibb.co/dmTLqb9/img1.jpg") no-repeat center / cover;
+    background-color: #ffffff;
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #161616;
+      opacity: 0.7;
+      position: absolute;
+    }
+    //Header
+    .header__card {
+      position: relative;
+      width: 65%;
+      align-self: center;
+      padding-left: 2rem;
+      h3 {
+        font-size: 3.4em;
+        color: white;
+        span {
+          background: #e2e2e242;
+          color: #ffffff;
+          font-size: 2rem;
+          font-weight: 200;
+          padding: 0.4rem 0.6rem;
+        }
+      }
+    }
+    //Footer
+    .footer__card {
+      position: relative;
+      align-self: center;
+      display: flex;
+      color: white;
+      padding: 0 3rem 0 2rem;
+      justify-content: space-between;
+      .author {
+        display: flex;
+        img {
+          width: 50px;
+          border: none;
+          border-radius: 100px;
+        }
+        p {
+          margin-left: 1em;
+          font-size: 1.2rem;
+          span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+  }
+}
