@@ -20,7 +20,7 @@ const Card = () => {
         <div className="content__card">
           <div className="header__card">
             <h3>
-              Learn to use <br /> <span>react-loading-skeleton</span>
+              Learn about <br /> <span>react-loading-skeleton</span>
             </h3>
           </div>
           <div className="footer__card">
